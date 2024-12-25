@@ -20,4 +20,3 @@ contract TheBlockchainMessanger {
         
     }
 }
-//this is the smart contract for simple messanger functionality on blockchain reading the string on smart contract for everyone but updatable for only owner
