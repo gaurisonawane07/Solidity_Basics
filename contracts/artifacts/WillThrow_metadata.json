@@ -6,23 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "payContract",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "NotAllowedError",
+				"type": "error"
 			},
 			{
 				"inputs": [],
-				"name": "payment",
-				"outputs": [
-					{
-						"internalType": "contract PaymentReceived",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"name": "aFunction",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -39,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Struct.sol": "wallet"
+			"contracts/TryCatch.sol": "WillThrow"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Struct.sol": {
-			"keccak256": "0x587f0d302b54c2fef792b4a11234049e6e613627e80affb3e89b0b5f62e0f7b3",
+		"contracts/TryCatch.sol": {
+			"keccak256": "0x27f8eed362c257e30dea57686cb3839c0e2dcd4017cd36c86ef30d8048fdc389",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cf2f72b11172be37c3a24901b637e97c5a836e1ad5d769171973c3f8b14b2ed5",
-				"dweb:/ipfs/Qmb26c113A5HGt9jir8tLuky2Kn31o4ZNUaUXJx8wpaBp1"
+				"bzz-raw://563aba8007aca958854d7d12e17347361726675370f8cf4b1f9dd64be3c8fb84",
+				"dweb:/ipfs/QmQDtJ1iFGWRW6uhjHo2UKgbMjBkX2PW8kkWAzJJLreynk"
 			]
 		}
 	},

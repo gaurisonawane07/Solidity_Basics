@@ -6,42 +6,25 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_from",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "amount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "payContract",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "from",
+				"name": "payment",
 				"outputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "from",
 						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -61,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Struct.sol": "PaymentReceived"
+			"contracts/Struct.sol": "wallet2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
