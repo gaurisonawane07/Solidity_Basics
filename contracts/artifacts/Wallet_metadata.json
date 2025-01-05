@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ReceiveAmount",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Smart_wallet.sol": "Wallet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Smart_wallet.sol": {
+			"keccak256": "0xa4603bb250a453390c5ab5db95a2389a53dfa59356fd8d8fa7e8b3021620532e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d0ad07cfbdc6d432fdd12765389d8cbc54d86f934d9e5bd4e46d965585f5f6f5",
+				"dweb:/ipfs/QmdPeVFyogzehjh1kYUQKvfE3UBqx9rwszFGvQ7XtdPebT"
+			]
+		}
+	},
+	"version": 1
+}
