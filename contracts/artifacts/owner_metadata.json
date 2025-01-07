@@ -24,7 +24,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritance.sol": "Owner"
+			"contracts/Inheritance.sol": "owner"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -39,11 +39,11 @@
 	},
 	"sources": {
 		"contracts/Inheritance.sol": {
-			"keccak256": "0xf6e6623942cdffed3f02396c6acf10b7be2a6a835dc1e5c3933d5781b7af2725",
+			"keccak256": "0x5e031071be40bedd274489d21772b1d94d53f05c075f437bfa95ea588b821cba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2aafdbd91d6e40fe6a311e31ce0195c8adf27cac1eb9127b53f1beacdf336ade",
-				"dweb:/ipfs/QmYxoT3uYZFYAQguBnmhtno1PBgs7Q42iU6FWZ6EUsL39K"
+				"bzz-raw://e5a4456798f026627ce8e17209a8c21211a94d85d30c31dd082a8179b8b21557",
+				"dweb:/ipfs/QmSNBsNwcpF51AMjRCFsYuTwfX4E27ERdbqygoPZoYj1ug"
 			]
 		}
 	},
